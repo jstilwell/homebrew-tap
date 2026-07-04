@@ -1,25 +1,25 @@
 class Dotprot < Formula
   desc "Lock up .env files (and anything in .prot) inside a 1Password vault."
   homepage "https://github.com/jstilwell/dotprot"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jstilwell/dotprot/releases/download/v0.3.0/dotprot-aarch64-apple-darwin.tar.xz"
-      sha256 "139916416b3c66d2c2e1f5b05a9e859b1df9931bd586d0200f9229ecf3b9f868"
+      url "https://github.com/jstilwell/dotprot/releases/download/v0.4.0/dotprot-aarch64-apple-darwin.tar.xz"
+      sha256 "06d10045d4db01ae23e6481d6ac0c1ab6b70221578b3208faba12a1f4be4eb2c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jstilwell/dotprot/releases/download/v0.3.0/dotprot-x86_64-apple-darwin.tar.xz"
-      sha256 "485066c1f3f2d917bdba967d8de6ee4581758571f2a5af182a249a7ff827b4bb"
+      url "https://github.com/jstilwell/dotprot/releases/download/v0.4.0/dotprot-x86_64-apple-darwin.tar.xz"
+      sha256 "8dfc0dce4ead1712421d353bc47297fc07fd78b30782a5f0a576c8c4d9a64509"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jstilwell/dotprot/releases/download/v0.3.0/dotprot-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "018c16a7064f16ac81a295fda9bfa1804e7a6d3b3d4ab01cfb293cb7d54eba09"
+      url "https://github.com/jstilwell/dotprot/releases/download/v0.4.0/dotprot-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a6d9970e9ceb87b3bd202aa6842b3d7d7be6a38cd5d986ea51e71162994b9fa4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jstilwell/dotprot/releases/download/v0.3.0/dotprot-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "987b2814aae9166ee7b3d4001d5c06a15e464cf97d199aceb072ab623dab3912"
+      url "https://github.com/jstilwell/dotprot/releases/download/v0.4.0/dotprot-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d37e0ca2f4a51864f537ef8d4f69a242ecfa1be7c6c13f209d46be4fdbe35d2f"
     end
   end
   license "MIT"
